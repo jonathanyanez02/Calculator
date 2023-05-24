@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+:root{
+    background-color: rgba(19, 13, 98, 0.621);
+}
+
+
+.head{
+    background-color: rgba(0, 0, 0, 0.642);
+
+    
+    
+}
+#title{
+    color: rgb(249, 245, 245);
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 50px ;
+    font-family: 'Pangolin', cursive;  
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+#add {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.642);
+    color: white;
+    cursor: pointer;
+}
+#subtract {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.642);
+    color: white;
+    cursor: pointer;
+}
+#multiply {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.642);
+    color: white;
+    cursor: pointer;
+}
+#divide {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.642);
+    color: white;
+    cursor: pointer;
+}
+
+#add:hover,#subtract:hover, #multiply:hover,#divide.hover {
+    background-color: #45a049;
+}
+
+.operator{
+    font-size: 22px;
+    margin-left: 5px;
+    color: #ffffff;
+    
+}
