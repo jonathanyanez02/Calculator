@@ -79,3 +79,21 @@
     color: #ffffff;
     
 }
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.answer{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  height: 40px;
+  
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+}
